@@ -18,4 +18,9 @@ public class AppTest {
     assertEquals("Resultado", app.factSum(2, 0), 3);
   }
 
+  @Test
+  public void factSumTest3() {
+    assertEquals("Resultado", app.factSum(1, 0), 2);
+  }
+
 }
