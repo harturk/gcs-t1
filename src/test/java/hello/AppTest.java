@@ -23,4 +23,15 @@ public class AppTest {
     assertEquals("Resultado", app.factSum(1, 0), 2);
   }
 
+  /// novos testes
+  @Test
+  public void factSumTest4() {
+    assertEquals("Resultado", app.factSum(4, 3), 30);
+  }
+
+  @Test
+  public void factSumTest5() {
+    assertEquals("Resultado", app.factSum(2, 4), 26);
+  }
+
 }
